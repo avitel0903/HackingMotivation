@@ -1,1 +1,274 @@
-hello test
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+		<title>Hacking Motivation</title>
+		<style>
+			body{
+			background:#00295f;
+			font-family:Arial, Helvetica, sans-serif;
+			}
+			.navbar{
+			background:#0a1f44;
+			}
+			.hero{
+			background:linear-gradient(#0a1f44,#316ac5);
+			color:white;
+			padding:80px 20px;
+			border-radius:12px;
+			margin-bottom:40px;
+			border: 5px solid #ffffff
+			}
+			.hero:hover{
+			background:linear-gradient(#06142c,#22457f);
+			}
+			.section-card{
+			background:white;
+			border-radius:12px;
+			padding:30px;
+			margin-top:40px;
+			box-shadow:0 6px 18px rgba(0,0,0,0.08);
+			border: 5px solid #063046
+			}
+			.scroll-table{
+			max-height:400px;
+			overflow-y:auto;
+			}
+			thead th{
+			text-align:center;
+			vertical-align:middle;
+			position:sticky;
+			top:0;
+			background:#0a1f44;
+			color:white;
+			z-index:1;
+			}
+			.btn-outline-light{
+			border-color:white;
+			}
+			.list-group-item a{
+			text-decoration:none;
+			font-weight:500;
+			color:#123a7a;
+			}
+			.list-group-item a:hover{
+			text-decoration:underline;
+			}
+			footer{
+			margin-top:60px;
+			padding:20px;
+			text-align:center;
+			color:#777;
+			}
+			img{
+			width: 40%;
+			border-radius: 15%;
+			}
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark px-3">
+			<a class="navbar-brand text-white fw-bold">Hacking Motivation</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarMenu">
+				<div class="ms-auto">
+					<a href="#home" class="btn btn-outline-light me-2">Home</a>
+					<a href="#citations" class="btn btn-outline-light">Learn More & Citation</a>
+				</div>
+			</div>
+		</nav>
+		<section id="home" class="container mt-5">
+			<div class="hero text-center">
+				<h1 class="display-5 fw-bold">Learn to Hack Your Motivation</h1>
+				<h3>“Why” matters more than “what”</h3>
+				<p class="lead mt-3">
+					The quality of human performance is determined not by the amount of motivation,
+					but by the degree to which that motivation is autonomous rather than controlled.
+				</p>
+				<img src="/brain.jpg">
+			</div>
+			<div class="section-card">
+				<h2 class="text-center">Extrinsic vs Intrinsic Goals</h2>
+				<p class="text-center text-muted">
+					Goals can come from outside rewards or from internal values and enjoyment.
+					Understanding the difference helps you choose goals that create lasting motivation.
+				</p>
+				<div class="table-responsive">
+					<table class="table table-bordered table-striped mt-3">
+						<thead>
+							<tr>
+								<th>Goal Type</th>
+								<th>What It Focuses On</th>
+								<th>Examples</th>
+								<th>Effect on Motivation</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Extrinsic Goals</td>
+								<td>External rewards, recognition, money, or approval.</td>
+								<td>Becoming famous, earning money, getting high grades only for praise.</td>
+								<td>Motivation may decrease once rewards disappear.</td>
+							</tr>
+							<tr class="table-success">
+								<td>Intrinsic Goals</td>
+								<td>Personal growth, enjoyment, meaning.</td>
+								<td>Learning skills, improving health, helping others.</td>
+								<td>Creates stronger long-term motivation.</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="section-card">
+				<h2 class="text-center">Types of Motivation</h2>
+				<h6 class="text-center text-muted">(Motivation exists on a spectrum)</h6>
+				<div class="table-responsive scroll-table">
+					<table class="table table-bordered table-striped mt-3">
+						<thead>
+							<tr>
+								<th>Motivation Type</th>
+								<th>Description</th>
+								<th>Example</th>
+								<th>Position on SDT Scale</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Amotivation</td>
+								<td>No motivation or reason to act.</td>
+								<td>Doing only the absolute minimum required.</td>
+								<td>Worst</td>
+							</tr>
+							<tr>
+								<td>External Regulation</td>
+								<td>Motivation driven by reward or punishment.</td>
+								<td>Completing homework to avoid a bad grade.</td>
+								<td>Low</td>
+							</tr>
+							<tr>
+								<td>Introjected Regulation</td>
+								<td>Driven by guilt or ego.</td>
+								<td>Exercising to avoid feeling like a failure.</td>
+								<td>Medium-Low</td>
+							</tr>
+							<tr>
+								<td>Identified Regulation</td>
+								<td>You personally value the goal.</td>
+								<td>Exercising for long-term health.</td>
+								<td>Medium-High</td>
+							</tr>
+							<tr>
+								<td>Integrated Regulation</td>
+								<td>The behavior aligns with identity.</td>
+								<td>Volunteering because it fits your values.</td>
+								<td>High</td>
+							</tr>
+							<tr class="table-success">
+								<td>Intrinsic Motivation</td>
+								<td>Doing something because you enjoy it.</td>
+								<td>Painting or music for fun.</td>
+								<td>Best</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="section-card">
+				<h2 class="text-center">The Overjustification Experiment</h2>
+				<p class="text-muted text-center">
+					A famous study by Lepper, Greene, and Nisbett examined how rewards affect motivation.
+				</p>
+				<div class="table-responsive">
+					<table class="table table-bordered table-striped">
+						<thead>
+							<tr>
+								<th>Group</th>
+								<th>Condition</th>
+								<th>Description</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Expected-Award</td>
+								<td>Extrinsic</td>
+								<td>Children expected an award for drawing.</td>
+							</tr>
+							<tr>
+								<td>Unexpected-Award</td>
+								<td>Mixed</td>
+								<td>Children received an award after drawing.</td>
+							</tr>
+							<tr>
+								<td>No-Award</td>
+								<td>Intrinsic</td>
+								<td>Children drew without rewards.</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="section-card">
+				<div class="text-center">
+					<iframe src="/study.pdf" width="80%" height="400px" style="border: none;">
+					Your browser does not support iframes. [Download the PDF](yourfile.pdf)
+				</div>
+				</iframe>
+			</div>
+		</section>
+		<section id="citations" class="container mt-5">
+			<div class="section-card">
+				<h1 class="text-center">Learn More & Citations</h1>
+				<h4 class="mt-4">Citations</h4>
+				<ul class="list-group">
+					<li class="list-group-item">
+						Deci, E. L., & Ryan, R. M. (1985). <i>Intrinsic Motivation and Self-Determination in Human Behavior.</i>
+					</li>
+					<li class="list-group-item">
+						Ryan, R. M., & Deci, E. L. (2000). Intrinsic and Extrinsic Motivations.
+					</li>
+					<li class="list-group-item">
+						Lepper, M. R., Greene, D., & Nisbett, R. E. (1973). Overjustification hypothesis.
+					</li>
+					<li class="list-group-item">
+						Pink, D. H. (2009). <i>Drive: The Surprising Truth About What Motivates Us.</i>
+					</li>
+				</ul>
+				<h4 class="mt-5">Learn More</h4>
+				<ul class="list-group">
+					<li class="list-group-item">
+						<a href="https://selfdeterminationtheory.org/theory/" target="_blank">
+						Self-Determination Theory Official Website
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="https://www.psychologytoday.com/us/basics/motivation" target="_blank">
+						Psychology Today – Motivation
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="https://www.simplypsychology.org/self-determination-theory.html" target="_blank">
+						Simply Psychology – Self-Determination Theory
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="https://www.youtube.com/watch?v=u6XAPnuFjJc" target="_blank">
+						Daniel Pink: The Puzzle of Motivation (TED Talk)
+						</a>
+					</li>
+				</ul>
+				<div class="text-center mt-4">
+					<a href="#home" class="btn btn-primary">Back to Home</a>
+				</div>
+			</div>
+		</section>
+		<footer>
+			Hacking Motivation • Psychology Project
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
